@@ -7,16 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B083D68826BAB77E009D805C /* voteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B083D68726BAB77E009D805C /* voteApp.swift */; };
-		B083D68A26BAB77E009D805C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B083D68926BAB77E009D805C /* ContentView.swift */; };
+		B0825BA226BD0A7B00C3B0EF /* CreateRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0825BA126BD0A7B00C3B0EF /* CreateRoomView.swift */; };
+		B0825BA426BD2D7800C3B0EF /* RoomListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0825BA326BD2D7800C3B0EF /* RoomListView.swift */; };
+		B0825BA626BD2D8D00C3B0EF /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0825BA526BD2D8D00C3B0EF /* RoomView.swift */; };
+		B0825BB426BE812F00C3B0EF /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0825BB326BE812E00C3B0EF /* AppState.swift */; };
+		B0825BB626BE839200C3B0EF /* CreateRoomPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0825BB526BE839200C3B0EF /* CreateRoomPresenter.swift */; };
+		B0825BB826BE842400C3B0EF /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0825BB726BE842400C3B0EF /* Room.swift */; };
+		B0825BBA26BE8BC100C3B0EF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0825BB926BE8BC100C3B0EF /* User.swift */; };
+		B0825BBC26BE8BD300C3B0EF /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0825BBB26BE8BD300C3B0EF /* Question.swift */; };
+		B0825BBE26BEC69200C3B0EF /* CreateRoomInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0825BBD26BEC69200C3B0EF /* CreateRoomInteractor.swift */; };
+		B083D68826BAB77E009D805C /* VoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B083D68726BAB77E009D805C /* VoteApp.swift */; };
+		B083D68A26BAB77E009D805C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B083D68926BAB77E009D805C /* HomeView.swift */; };
 		B083D68C26BAB780009D805C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B083D68B26BAB780009D805C /* Assets.xcassets */; };
 		B083D68F26BAB780009D805C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B083D68E26BAB780009D805C /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B0825BA126BD0A7B00C3B0EF /* CreateRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRoomView.swift; sourceTree = "<group>"; };
+		B0825BA326BD2D7800C3B0EF /* RoomListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomListView.swift; sourceTree = "<group>"; };
+		B0825BA526BD2D8D00C3B0EF /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
+		B0825BB326BE812E00C3B0EF /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		B0825BB526BE839200C3B0EF /* CreateRoomPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRoomPresenter.swift; sourceTree = "<group>"; };
+		B0825BB726BE842400C3B0EF /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		B0825BB926BE8BC100C3B0EF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B0825BBB26BE8BD300C3B0EF /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		B0825BBD26BEC69200C3B0EF /* CreateRoomInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRoomInteractor.swift; sourceTree = "<group>"; };
 		B083D68426BAB77E009D805C /* vote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vote.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B083D68726BAB77E009D805C /* voteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voteApp.swift; sourceTree = "<group>"; };
-		B083D68926BAB77E009D805C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B083D68726BAB77E009D805C /* VoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteApp.swift; sourceTree = "<group>"; };
+		B083D68926BAB77E009D805C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B083D68B26BAB780009D805C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B083D68E26BAB780009D805C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B083D69026BAB780009D805C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,6 +51,109 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B0825BA726BD966800C3B0EF /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B083D68726BAB77E009D805C /* VoteApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B0825BA826BD969400C3B0EF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B0825BB226BE80EA00C3B0EF /* Models */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B0825BA926BD96A300C3B0EF /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B0825BAF26BD990A00C3B0EF /* CreateRoom */,
+				B0825BAD26BD984300C3B0EF /* Home */,
+				B0825BB126BD997700C3B0EF /* Notification */,
+				B0825BAE26BD990200C3B0EF /* Room */,
+				B0825BAC26BD982500C3B0EF /* RoomList */,
+				B0825BB026BD996F00C3B0EF /* Setting */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B0825BAA26BD96BD00C3B0EF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B083D68B26BAB780009D805C /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B0825BAB26BD96C600C3B0EF /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		B0825BAC26BD982500C3B0EF /* RoomList */ = {
+			isa = PBXGroup;
+			children = (
+				B0825BA326BD2D7800C3B0EF /* RoomListView.swift */,
+			);
+			path = RoomList;
+			sourceTree = "<group>";
+		};
+		B0825BAD26BD984300C3B0EF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B083D68926BAB77E009D805C /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B0825BAE26BD990200C3B0EF /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				B0825BA526BD2D8D00C3B0EF /* RoomView.swift */,
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
+		B0825BAF26BD990A00C3B0EF /* CreateRoom */ = {
+			isa = PBXGroup;
+			children = (
+				B0825BA126BD0A7B00C3B0EF /* CreateRoomView.swift */,
+				B0825BB526BE839200C3B0EF /* CreateRoomPresenter.swift */,
+				B0825BBD26BEC69200C3B0EF /* CreateRoomInteractor.swift */,
+			);
+			path = CreateRoom;
+			sourceTree = "<group>";
+		};
+		B0825BB026BD996F00C3B0EF /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		B0825BB126BD997700C3B0EF /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		B0825BB226BE80EA00C3B0EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B0825BB326BE812E00C3B0EF /* AppState.swift */,
+				B0825BB726BE842400C3B0EF /* Room.swift */,
+				B0825BB926BE8BC100C3B0EF /* User.swift */,
+				B0825BBB26BE8BD300C3B0EF /* Question.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		B083D67B26BAB77E009D805C = {
 			isa = PBXGroup;
 			children = (
@@ -52,11 +173,13 @@
 		B083D68626BAB77E009D805C /* vote */ = {
 			isa = PBXGroup;
 			children = (
-				B083D68726BAB77E009D805C /* voteApp.swift */,
-				B083D68926BAB77E009D805C /* ContentView.swift */,
-				B083D68B26BAB780009D805C /* Assets.xcassets */,
 				B083D69026BAB780009D805C /* Info.plist */,
+				B0825BA726BD966800C3B0EF /* Application */,
+				B0825BA826BD969400C3B0EF /* Common */,
+				B0825BA926BD96A300C3B0EF /* Modules */,
 				B083D68D26BAB780009D805C /* Preview Content */,
+				B0825BAA26BD96BD00C3B0EF /* Resources */,
+				B0825BAB26BD96C600C3B0EF /* SupportingFiles */,
 			);
 			path = vote;
 			sourceTree = "<group>";
@@ -138,8 +261,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B083D68A26BAB77E009D805C /* ContentView.swift in Sources */,
-				B083D68826BAB77E009D805C /* voteApp.swift in Sources */,
+				B0825BA226BD0A7B00C3B0EF /* CreateRoomView.swift in Sources */,
+				B0825BA626BD2D8D00C3B0EF /* RoomView.swift in Sources */,
+				B083D68A26BAB77E009D805C /* HomeView.swift in Sources */,
+				B0825BBE26BEC69200C3B0EF /* CreateRoomInteractor.swift in Sources */,
+				B0825BB426BE812F00C3B0EF /* AppState.swift in Sources */,
+				B0825BB626BE839200C3B0EF /* CreateRoomPresenter.swift in Sources */,
+				B0825BBC26BE8BD300C3B0EF /* Question.swift in Sources */,
+				B0825BBA26BE8BC100C3B0EF /* User.swift in Sources */,
+				B0825BB826BE842400C3B0EF /* Room.swift in Sources */,
+				B083D68826BAB77E009D805C /* VoteApp.swift in Sources */,
+				B0825BA426BD2D7800C3B0EF /* RoomListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
